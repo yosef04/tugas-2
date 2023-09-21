@@ -1,3 +1,4 @@
+import 'package:belajar_flutter/ui/form_data.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -9,13 +10,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       title: "Aplikasi Flutter Pertama",
-      home: Scaffold(
-        appBar: AppBar(
-          title: Text("Aplikasi Flutter Pertama"),
-        )
-      )
+      home: FormData()
     );
   }
 }
